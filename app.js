@@ -2,7 +2,15 @@
 $("#link").on("click", function(e) {
 
 	// jump to object
-	force.jump("#sixth");
+	// force.jump("#sixth");
+
+	var options = {
+		setHash: false,
+
+		duration: 2500,
+		easing: "swing",
+	};
+	force.jump("#sixth", options);
 
 	return false;
 });
