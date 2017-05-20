@@ -15,6 +15,18 @@ $("#link").on("click", function(e) {
 	return false;
 });
 
+$("button").on("click", function() {
+
+	var options = {
+		duration: 500,
+		easing: "swing",
+	};
+	force.jump("#link", options);
+
+	return false;
+
+});
+
 
 // jump by selector
 // force.jump(elem);
