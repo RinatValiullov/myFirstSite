@@ -48,3 +48,12 @@ p{
 p:first-of-type{
 	margin-top: 50px;
 }
+p:last-of-type{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+p:last-of-type span{
+	position: relative;
+	color: #fff;
+}
