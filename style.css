@@ -8,34 +8,23 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 }
-h2{
+.wrapper{
+	position: relative;
+	text-align: center;
+}
+h1{
 	color: #fff;
 	width: 100%;
 	text-align: center;
 	margin: 0;
 	font-family: 'Open sans', sans-serif;
 	font-weight: 200;
-}
-p{
-	background: rgba(0, 0, 255, 0.6);
-	opacity: 0.8;
-	color: #fff;
-	height: 260px;
-	padding: 15px;
-	font-size: 1.1em;
-	line-height: 1.1em;
-	margin: 0 0 150px;
-}
-p:first-of-type{
-	margin-top: 50px;
-}
-.wrapper{
-	position: relative;
+	margin-bottom: 15px;
 }
 span{
 	position: absolute;
-	top: 0;
-	right: 0;
+	top: 5px;
+	right: 5px;
 }
 a{
 	text-transform: uppercase;
@@ -44,4 +33,18 @@ a{
 }
 a:hover{
 	background-color: #f05050;
+}
+p{
+	background: rgba(0, 0, 255, 0.6);
+	text-align: justify;
+	opacity: 0.8;
+	color: #fff;
+	min-height: 280px;
+	padding: 15px;
+	font-size: 1.1em;
+	line-height: 1.1em;
+	margin: 0 0 150px;
+}
+p:first-of-type{
+	margin-top: 50px;
 }
